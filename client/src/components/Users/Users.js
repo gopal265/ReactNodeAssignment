@@ -15,11 +15,12 @@ const Users = () => {
   const [filteredUsers, setFilteredUsers] = useState(users);
   const [sortBy, setSortBy] = useState('name');
   const [search,setSearch] = useState("")
-
+  
   // Function to handle filtering based on a search term
   const handleFilter = (searchTerm) => {
      setSearch(searchTerm)
-    if(searchTerm == "" || search==""){
+     console.log(searchTerm)
+    if(searchTerm == "" ){
       setFilteredUsers(users)
       return
     }
@@ -47,9 +48,7 @@ const Users = () => {
       setSortBy('name');
   };
 
-  useEffect(() => {
-    dispatch(getUsers())
-  }, [])
+ 
   return (
     <div className='container-fluid'>
       <div className='search p-3 '>
@@ -68,7 +67,7 @@ const Users = () => {
         <button className="btn btn-info ml-3" onClick={clearFilters}>Clear Filters</button>
  </div>
 
-      {loading == false && filteredUsers.slice(index, index + 3).map(user => (
+      { filteredUsers.slice(index, index + 3).map(user => (
         <div className='container-fluid p-2'>
           <User user={user} key={user.id} />
         </div>
