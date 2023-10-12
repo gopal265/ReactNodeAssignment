@@ -6,6 +6,7 @@ Users Dashboard
 
 - [Introduction](#introduction)
 - [Features](#features)
+-[Some Images](#some-images)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -22,6 +23,13 @@ List key features and functionalities of your project.
 - Pagination: It helps to display a limited no of users at a time (here 3) and provide a pagination(set of buttons or numbers) using which we can navigate to and fro.
 - Search: Using this feature we can search for the user  by typing their name in the search bar.
 - Sort : We can sort the user by their name or by their emailid
+
+## Some Images
+![Alt Text](./client/src/images/image1.png)
+![Alt Text](./client/src/images/image2.png)
+![Alt Text](./client/src/images/image3.png)
+![Alt Text](./client/src/images/image4.png)
+
 
 ## Prerequisites
 
