@@ -25,14 +25,18 @@ List key features and functionalities of your project.
 - Sort : We can sort the user by their name or by their emailid
 
 ## Some Images
+ Landing Page
 ![Alt Text](./client/src/images/image1.png)
-#### Landing Page
+
+Searching
 ![Alt Text](./client/src/images/image2.png)
-#### Searching
+
+Sorting by Name
 ![Alt Text](./client/src/images/image3.png)
-####  Sorting by Name
+
+Showing extra details
 ![Alt Text](./client/src/images/image4.png)
-####  Showing extra details
+  
 
 ## Prerequisites
 
