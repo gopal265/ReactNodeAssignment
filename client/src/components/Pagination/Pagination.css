@@ -1,0 +1,21 @@
+.pagination-wrapper{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(173, 233, 233,0.3);
+
+}
+.page-button{
+    background-color: white;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    box-shadow: 3px 3px 3px rgb(149, 224, 253);
+}
+
+.real-button{
+    border: none;
+    background-color: inherit;
+}
+.active-button{
+    background-color: blue !important;
+}

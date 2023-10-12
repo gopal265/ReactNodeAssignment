@@ -1,0 +1,14 @@
+.user-wrapper{
+    background-color: white;
+    padding: 40px 0px;
+    border-radius: 15px;
+}
+.user-heading{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.hide-wrapper{
+    border-radius: 15px;
+    border: 1px solid rgb(175, 172, 172);
+}
