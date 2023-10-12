@@ -26,10 +26,13 @@ List key features and functionalities of your project.
 
 ## Some Images
 ![Alt Text](./client/src/images/image1.png)
+#### Landing Page
 ![Alt Text](./client/src/images/image2.png)
+#### Searching
 ![Alt Text](./client/src/images/image3.png)
+####  Sorting by Name
 ![Alt Text](./client/src/images/image4.png)
-
+####  Showing extra details
 
 ## Prerequisites
 
